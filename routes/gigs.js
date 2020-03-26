@@ -32,7 +32,7 @@ router.post('/add', (req, res) => {
     errors.push({ text: 'Please add a description' });
   }
   if(!contact_email) {
-    errors.push({ text: 'Please add a contact email' });
+    errors.push({ text: 'Please add a contact email, please' });
   }
 
   // Check for errors
